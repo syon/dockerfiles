@@ -75,5 +75,5 @@ __bash__
 ```bash
 $ docker build -t pptr .
 
-$ docker run -it --rm -v $(pwd)/result:/result pptr
+$ docker run --rm -v $(pwd)/result:/result pptr
 ```
