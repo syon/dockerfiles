@@ -3,13 +3,14 @@ puppeteer
 
 docker image for puppeteer.
 
+- [Docker Hub](https://hub.docker.com/r/syon/puppeteer/)
 - [puppeteer/troubleshooting\.md at master · GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-in-docker)
 
 
 ## install
 
 ```bash
-docker pull syon/puppeteer:latest
+docker pull syon/puppeteer
 ```
 
 
@@ -61,7 +62,7 @@ const puppeteer = require('puppeteer');
 
 __Dockerfile__
 ```dockerfile
-FROM syon/puppeteer:latest
+FROM syon/puppeteer
 
 WORKDIR /work
 COPY . /work
